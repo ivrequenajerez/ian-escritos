@@ -38,9 +38,11 @@ footer {
 
 a {
     text-decoration: none;
-    color: #007BFF;
+    transition: font-size 0.3s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #F5F5F5;
+    cursor: pointer;
+    font-size: 105%;
 }
